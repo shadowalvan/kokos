@@ -11,7 +11,7 @@
 
       <div class="team-grid">
         <div class="team-member">
-          <img src="/images/alvan2.png" alt="Alvan" class="member-photo" />
+          <img src="/images/alvan_changed.jpeg" alt="Alvan" class="member-photo" />
           <h3>Alvan</h3>
           <p class="member-role">Local Team Lead <br> Cybersecurity Expert</p>
           <p class="member-bio">
