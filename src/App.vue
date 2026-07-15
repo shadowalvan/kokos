@@ -20,6 +20,7 @@ import About from "./components/About.vue";
 import Footer from "./components/Footer.vue";
 import Homepage from "./components/Homepage.vue";
 import DemoVideo from "./components/DemoVideo.vue";
+import Application from "./components/Application.vue";
 
 export default {
   name: "App",
@@ -30,6 +31,7 @@ export default {
     About,
     Homepage,
     DemoVideo,
+    Application,
   },
   data() {
     return {
@@ -45,6 +47,8 @@ export default {
           return Demo;
         case "about":
           return About;
+        case "apply":
+          return Application;
         case "demo-video":
           // check localStorage before allowing access
           return localStorage.getItem("demoAccess") === "granted"
